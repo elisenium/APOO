@@ -18,6 +18,8 @@ public abstract class FormuleDeVacances {
         return duree;
     }
 
+    public abstract double calculerPrix();
+
     @Override
     public String toString() {
         String texte = "Date de depart : " + dateDepart +

@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class VoyageOrganise extends FormuleDeVacances{
     private String nom;
@@ -22,11 +23,22 @@ public class VoyageOrganise extends FormuleDeVacances{
     }
 
     public boolean ajouter(Etape etape){
+        if (etape == null) throw new IllegalArgumentException("L'etape est invalide");
         return etapes.add(etape);
     }
 
     public boolean supprimer(Etape etape){
+        if (etape == null) throw new IllegalArgumentException("L'etape est invalide");
         return etapes.remove(etape);
+    }
+
+    @Override
+    public double calculerPrix() {
+        return 0;
+    }
+
+    public Iterator<Etape> iterator(){
+        return etapes.iterator();
     }
 
     @Override

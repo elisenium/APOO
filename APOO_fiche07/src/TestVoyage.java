@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 public class TestVoyage {
@@ -23,18 +24,18 @@ public class TestVoyage {
         System.out.println();
 
         System.out.println("******************** VOYAGE A BALI EN AVION (test formule sejour) ********************");
-        LocalDate departBali = LocalDate.of(2021,1,23);
-        LocalTime heureDepartBXL_Bali = LocalTime.of(15,45);
-        LocalTime heureDepartBali_BXL = LocalTime.of(9,30);
-        Vol volAllerBXL_Bali = new Vol(heureDepartBXL_Bali, 520, "23HGD", "Bruxelles","Bali");
-        Vol volRetourBali_BXL = new Vol(heureDepartBali_BXL, 734, "DJ873", "Bali", "Bruxelles");
+        LocalDateTime departBXL_Bali = LocalDateTime.of(2021,1,23,15,45);
+        LocalDateTime retourBali_BXL = LocalDateTime.of(2021,2,5,10,15);
+        LocalDate depart = LocalDate.of(2021,1,23);
+        Vol volAllerBXL_Bali = new Vol(departBXL_Bali, 520, "23HGD", "Bruxelles","Bali");
+        Vol volRetourBali_BXL = new Vol(retourBali_BXL, 734, "DJ873", "Bali", "Bruxelles");
         Hotel reservationBali = new Hotel("Plazza Deluxe", 5, 20.5);
-        Sejour sejourBali = new Sejour(departBali,6, volAllerBXL_Bali, volRetourBali_BXL,reservationBali);
+        Sejour sejourBali = new Sejour(depart,13, volAllerBXL_Bali, volRetourBali_BXL,reservationBali);
         System.out.println(sejourBali);
         System.out.println();
 
         System.out.println("******************** VOYAGE A BALI EN AVION (test formule simple) ********************");
-        FormuleSimple sejourBaliSimple = new FormuleSimple(departBali,6, volAllerBXL_Bali, volRetourBali_BXL);
+        FormuleSimple sejourBaliSimple = new FormuleSimple(depart,13, volAllerBXL_Bali, volRetourBali_BXL);
         System.out.println(sejourBaliSimple);
         System.out.println();
 

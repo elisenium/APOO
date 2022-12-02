@@ -1,20 +1,22 @@
-import java.time.LocalTime;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 
 public class Vol {
-    private LocalTime heure;
+    private LocalDateTime dateHeure;
     private double prix;
     private String numero, aeroportDepart, aeroportArrivee;
 
-    public Vol(LocalTime heure, double prix, String numero, String aeroportDepart, String aeroportArrivee) {
-        this.heure = heure;
+    public Vol(LocalDateTime dateHeure, double prix, String numero, String aeroportDepart, String aeroportArrivee) {
+        this.dateHeure = dateHeure;
         this.prix = prix;
         this.numero = numero;
         this.aeroportDepart = aeroportDepart;
         this.aeroportArrivee = aeroportArrivee;
     }
 
-    public LocalTime getHeure() {
-        return heure;
+    public LocalDateTime getdateHeure() {
+        return dateHeure;
     }
 
     public double getPrix() {
@@ -35,6 +37,8 @@ public class Vol {
 
     @Override
     public String toString() {
-        return "Vol n°" + numero + " - Départ : " + heure + " " + aeroportDepart + " -> " + aeroportArrivee + " - Prix : " + prix + " €";
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
+
+        return "Vol n°" + numero + " - Départ : " + formatter.format(dateHeure) + " " + aeroportDepart + " -> " + aeroportArrivee + " - Prix : " + prix + " €";
     }
 }

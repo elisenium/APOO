@@ -13,14 +13,13 @@ public class Sejour extends FormuleSimple{
     }
 
     @Override
-    public double calculerPrixTotal() {
-        double prixHotel = reservation.getPrixParNuit() * getDuree();
-        return super.calculerPrixTotal() + prixHotel;
+    public double calculerPrix() {
+        return super.calculerPrix() + reservation.getPrixParNuit() * getDuree();
     }
 
     @Override
     public String toString() {
-        String texte = "\nHotel : " + getReservation() + "\nPrix total du séjour : " + calculerPrixTotal() + " €";
+        String texte = "\nHotel : " + getReservation();
         return super.toString() + texte;
     }
 }

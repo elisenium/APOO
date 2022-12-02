@@ -20,10 +20,12 @@ public class Bateau {
     }
 
     public boolean ajouter(String activite){
+        if (activite == null) throw new IllegalArgumentException("L'activite est invalide");
         return activites.add(activite);
     }
 
     public boolean supprimer(String activite){
+        if (activite == null) throw new IllegalArgumentException("L'activite est invalide");
         return activites.add(activite);
     }
 
