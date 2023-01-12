@@ -1,3 +1,4 @@
+
 public class Creature extends Carte{
     private String nom;
     private int pointsDeDegats, pointsDeVie;

@@ -1,3 +1,4 @@
+
 public class TropDeCartesException extends RuntimeException {
     public TropDeCartesException() {
     }

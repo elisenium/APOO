@@ -1,3 +1,4 @@
+
 public class Magipl {
     public static void main(String[] args) {
         Main main1 = new Main();
