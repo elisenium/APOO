@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6cbd82d-3854-4a44-b659-3ce5e3320028" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HibzXEGQEYed9605dLHlgfD4IB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/elise/Documents/School/Vinci - Paul Lambin/BAC 1/APOO/APOO_fiche07/src&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6cbd82d-3854-4a44-b659-3ce5e3320028" name="Changes" comment="" />
+      <created>1668771118696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668771118696</updated>
+      <workItem from="1668771120123" duration="434000" />
+      <workItem from="1668776898627" duration="7000" />
+      <workItem from="1669236144350" duration="8332000" />
+      <workItem from="1669629493815" duration="32000" />
+      <workItem from="1669801364715" duration="1240000" />
+      <workItem from="1669804285854" duration="4145000" />
+      <workItem from="1669815620880" duration="1089000" />
+      <workItem from="1669818654507" duration="209000" />
+      <workItem from="1669820125096" duration="3431000" />
+      <workItem from="1669825445524" duration="156000" />
+      <workItem from="1669831597869" duration="7357000" />
+      <workItem from="1669904941395" duration="363000" />
+      <workItem from="1669905369917" duration="166000" />
+      <workItem from="1669907442252" duration="11093000" />
+      <workItem from="1669929389142" duration="5434000" />
+      <workItem from="1669944406360" duration="471000" />
+      <workItem from="1669991438329" duration="637000" />
+      <workItem from="1669992922504" duration="2301000" />
+      <workItem from="1670095065261" duration="587000" />
+      <workItem from="1670514822630" duration="941000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
